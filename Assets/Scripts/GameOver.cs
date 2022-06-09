@@ -32,7 +32,7 @@ public class GameOver : MonoBehaviour
         string s = "";
         switch(mortysCount)
         {
-            case 30:
+            case 0:
                 SoundManager.instance.playEnd(winSound);
                 s = "You win!" + '\n' + "Congratulations!";
                 break;
